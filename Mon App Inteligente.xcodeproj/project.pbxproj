@@ -13,6 +13,7 @@
 		9C19EEF8277B174C0097665C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19EEF6277B174C0097665C /* Main.storyboard */; };
 		9C19EEFA277B174F0097665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C19EEF9277B174F0097665C /* Assets.xcassets */; };
 		9C19EEFD277B174F0097665C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C19EEFB277B174F0097665C /* LaunchScreen.storyboard */; };
+		9C19EF05277B19610097665C /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9C19EF04277B19610097665C /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9C19EEF9277B174F0097665C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C19EEFC277B174F0097665C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C19EEFE277B174F0097665C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C19EF04277B19610097665C /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 		9C19EEEF277B174C0097665C /* Mon App Inteligente */ = {
 			isa = PBXGroup;
 			children = (
+				9C19EF06277B56EA0097665C /* Model */,
+				9C19EF04277B19610097665C /* SqueezeNet.mlmodel */,
 				9C19EEF0277B174C0097665C /* AppDelegate.swift */,
 				9C19EEF2277B174C0097665C /* SceneDelegate.swift */,
 				9C19EEF4277B174C0097665C /* ViewController.swift */,
@@ -65,6 +69,13 @@
 				9C19EEFE277B174F0097665C /* Info.plist */,
 			);
 			path = "Mon App Inteligente";
+			sourceTree = "<group>";
+		};
+		9C19EF06277B56EA0097665C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				9C19EEF5277B174C0097665C /* ViewController.swift in Sources */,
 				9C19EEF1277B174C0097665C /* AppDelegate.swift in Sources */,
 				9C19EEF3277B174C0097665C /* SceneDelegate.swift in Sources */,
+				9C19EF05277B19610097665C /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
